@@ -4,25 +4,29 @@
     <title>JG Software</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
   </head>
   <body>
     <div class="container">
-      <img src="/jgsoftware.png" alt="JG Software" />
-      <p>a cutting edge technology company</p>
-
-      <div class="legal">
-        <p>
-          JG Software Ltd, C/O TAP Suite 5 5th Floor, City Reach, 5 Greenwich
-          View Place, E14 9NN, London
-        </p>
-        <p>
-          Registered in England and Wales with company # 15734325 & VAT #
-          470368974
-        </p>
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">JG Software</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <img src="/jgsoftware.png" alt="JG Software" class="jg-logo" />
+          <p class="font-lg">a cutting edge technology company</p>
+        </div>
+        <div class="status-bar">
+          <p class="status-bar-field">
+            © JG Software Ltd. Registered in England and Wales with company #
+            15734325 & VAT # 470368974
+          </p>
+        </div>
       </div>
     </div>
   </body>

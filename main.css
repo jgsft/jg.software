@@ -5,38 +5,45 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  width: 100dvw;
+  height: 100dvh;
+  min-width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-image: url(/bliss.webp);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .container {
-  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
+}
+
+.window {
   width: 100%;
-  font-family: "Comic Neue", cursive;
+  max-width: 350px;
+}
+
+.jg-logo {
+  margin-bottom: 10px;
+}
+
+.font-lg {
+  font-size: 16px;
   font-weight: 800;
   font-style: normal;
-  font-size: 20px;
+}
+
+.window-body {
+  padding: 30px 25px;
 }
 
 img {
   width: 100%;
-}
-
-.legal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 5px;
-  margin-top: 100px;
-  font-family: sans-serif;
-  font-weight: normal;
-  color: #999;
-  font-size: 12px;
 }
